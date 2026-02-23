@@ -1,0 +1,13 @@
+Ignorar dependencias (son muy pesadas y se reinstalan)
+node_modules/
+app_ejemplo/node_modules/
+
+Ignorar archivos de configuración sensible (¡Importante por seguridad!)
+.env
+app_ejemplo/.env
+
+Ignorar archivos de datos locales o temporales
+app_ejemplo/chat_history.json
+
+Logs del sistema
+npm-debug.log*
